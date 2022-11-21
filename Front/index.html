@@ -37,8 +37,10 @@
 
                     </div>
                 
-                    <form action="">
-                        <input type="submit" value="Comprar ahora" class="btn btn-primary btn-block">
+                    <form action="http://localhost:3000/checkout" method="POST">
+                        <input type="hidden" name="title" value="Remera manga corta">
+                        <input type="hidden" name="price" value="2500"> <!-- aca tranquilamente podria poner el value que me venga en una variable y demas -->
+                        <input type="submit" value="Comprar ahora" class="btn btn-primary btn-block" >
                     </form>
                 </div>
 
